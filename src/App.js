@@ -1,4 +1,4 @@
-import DogImage from './components/DogImage';
+import Dog from './containers/Dog';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,10 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Random Dog Picture</code>
-        </p>
-        <DogImage />
+        <Dog />
       </header>
     </div>
   );
